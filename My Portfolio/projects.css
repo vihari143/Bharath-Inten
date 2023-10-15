@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("back ground 3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+}
+
+h1{
+    font-size: 45px;
+    color: #fff;
+    font-family: raleway;
+    text-align: center; 
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 550;
+    font-family: league spartan;
+    color: #fff;
+    line-height: 75px;
+}
+
+.main{
+    margin: 100px 200px;
+}
+
+hr{
+    margin:30px 30px 0px 30px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: grey;
+    height: 50px;
+    margin-top: 75px;
+}
+
+.nav-link{
+    position: relative;
+    font-size: 25px;
+    font-family: league spartan;
+    color:#fff;
+    text-decoration: none;   
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.nav-link::after{
+    content: "";
+    left: 0;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.5s;
+    width: 0;
+    height: 2px;
+    background: #fff;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
+
